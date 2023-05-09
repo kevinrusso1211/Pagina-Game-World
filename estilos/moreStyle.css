@@ -1,0 +1,225 @@
+body, html{ 
+
+    background-color: #090A09;
+    font-family:'Courier New', Courier, monospace;
+    color: #37A600;
+
+}
+
+.contenido-todo{
+
+    width: 940px;
+    margin: 0px auto;
+
+}
+
+a{
+
+    text-decoration: none;
+
+}
+
+header{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.items{
+
+    display: flex;
+    flex-direction: row;
+    background-color: #0000;
+    
+}
+
+.items li{
+
+    padding: 20px;
+    list-style: none;
+    margin:30px 30px 0px 30px;
+    border-radius: 10px;
+
+}
+
+.items a{
+
+    text-decoration: none;
+    color: #37A600;
+    
+
+}
+
+.items li:hover{
+
+    background-color: #FFFFFF;
+    color: #37A600;
+    cursor: pointer;
+
+}
+
+
+.part2{
+
+    background-color: #ffff;
+    height: 305px;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.txt{
+
+    width: 45%;
+    padding-top: 30px;
+
+}
+
+.txt p{
+
+    padding-top: 20px;
+
+}
+
+.img{
+
+    width: 29px;
+
+}
+
+.imagen{
+
+    width: 500px;
+    height: 300px;
+    margin-left: 48%;
+
+}
+
+.secciones{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.encabezado{
+
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+
+} 
+
+.contenido{
+
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.clasificacion{
+
+    text-align: center;
+
+}
+
+.subcontenido{
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.clasificacion{
+
+    box-shadow: 3px 3px 3px 3px #FFFFFF;
+    border-radius: 10px;
+
+}
+
+.juego{
+
+    border: solid 1px #37A600;
+    height: 500px;
+    width: 297px;
+    margin-left: 10px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    transition: all 0.5s ease;
+    color: #37A600;
+
+}
+
+.juego:hover{
+
+    color: #FFFFFF;
+    border: solid 1px #FFFFFF;
+    box-shadow: 0 0 20px #37A600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    transition: scale(0.75);
+}
+
+.imagen_juego{
+
+    height: 180px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 0;
+    
+}
+
+.titulo_juego{
+
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+    
+}
+
+.descripcion{
+
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 20px;
+
+}
+
+.subcontenido{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer{
+
+    background-color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.txtopp{
+
+    padding-left: 10px;
+    padding-top: 30px;
+
+}
+
+.txtopp .credito{
+
+    padding-left: 290px;
+
+}

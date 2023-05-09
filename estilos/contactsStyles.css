@@ -1,0 +1,232 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body, html{ 
+
+    background-color: #090A09;
+    font-family:'Courier New', Courier, monospace;
+    color: #37A600;
+
+}
+
+.contenido-todo{
+
+    width: 940px;
+    margin: 0px auto;
+
+}
+
+header{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.items{
+
+    display: flex;
+    flex-direction: row;
+    background-color: #0000;
+    
+}
+
+.items li{
+
+    padding: 20px;
+    list-style: none;
+    margin:30px 30px 0px 30px;
+    border-radius: 10px;
+
+}
+
+.items a{
+
+    text-decoration: none;
+    color: #37A600;
+    
+
+}
+
+.items li:hover{
+
+    background-color: #FFFFFF;
+    color: #37A600;
+    cursor: pointer;
+
+}
+
+.part2{
+
+    background-color: #FFFFFF;
+    height: 305px;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    text-align: justify;
+
+}
+
+.txt{
+
+    width: 45%;
+    padding-top: 30px;
+    padding-left: 20px;
+
+}
+
+.txt p{
+
+    padding-top: 20px;
+
+}
+
+.img{
+
+    width: 470px;
+    height: 300px;
+    padding-left: 30px;
+
+}
+
+.imagen{
+
+    width: 500px;
+    height: 300px;
+    margin-left: 48%;
+
+}
+
+.secciones{
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.encabezado{
+
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+
+} 
+
+.contenido{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.informacion{
+
+    padding-top: 100px;
+
+}
+
+.info-contacto{
+
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.contactame{
+
+    text-decoration: none;
+    background-color: #FFFFFF;
+    color: #090A09;
+    margin-top: 50px;
+    margin-left: 38%;
+    text-align: center;
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+
+}
+
+.informacion{
+
+    width: 100%;
+    display: flex;
+
+}
+
+.info1{
+
+    width: 50%;
+    padding-left: 20px;
+    margin-left: 24%;
+    margin-bottom: 100px;
+
+}
+
+footer{
+
+    background-color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.boton-s{
+
+    height: 50px;
+    width: 110px;
+    border: solid 1px #37A600;
+    padding-top: 4px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 175px;
+
+}
+
+.boton-s a{
+
+    color: #37A600;
+    text-decoration: none;
+
+}
+
+.boton-s:hover{
+
+    background-color: #FFFFFF;
+    box-shadow: 0 0 15px #37A600;
+
+}
+
+.boton-s a:hover{
+
+    color: #090A09;
+
+}
+
+.info1 li{
+
+    list-style: none;
+
+}
+
+.txtopp{
+
+    padding-left: 10px;
+    padding-top: 30px;
+
+}
+
+.txtopp .credito{
+
+    padding-left: 290px;
+
+}

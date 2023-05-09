@@ -1,0 +1,176 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+p{
+
+    color: #FFFFFF;
+
+}
+
+body, html{ 
+
+    background-color: #090A09;
+    font-family:'Courier New', Courier, monospace;
+    color: #37A600;
+
+}
+
+.contenido-todo{
+
+    width: 940px;
+    margin: 0px auto;
+
+}
+
+header{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.items{
+
+    display: flex;
+    flex-direction: row;
+    background-color: #0000;
+    
+}
+
+.items li{
+
+    padding: 20px;
+    list-style: none;
+    margin:0px 30px 0px 30px;
+    border-radius: 10px;
+
+}
+
+.items a{
+
+    text-decoration: none;
+    color: #37A600;
+    
+
+}
+
+.items li:hover{
+
+    background-color: #FFFFFF;
+    color: #37A600;
+    cursor: pointer;
+
+}
+
+.part2{
+
+    background-color: #090A09;
+    text-align: justify;
+    height: 305px;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.txt{
+
+    width: 45%;
+    padding-top: 30px;
+
+}
+
+.titulo{
+
+    margin-bottom: 50px;
+
+}
+
+.descripcion{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding: 5px 20px 0px 20px;
+
+}
+
+.txt p{
+
+    color: #FFFFFF;
+
+}
+
+.txt p{
+
+    padding-top: 20px;
+
+}
+
+.foto{
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin: 10px 0px 0px 10px;
+
+}
+
+.encabezado{
+
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+
+} 
+
+.integrante{
+
+    border: solid 1px #37A600;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 30px;
+    height: 200px;
+    width: 520px;
+    transition: all 0.5s ease;
+
+}
+
+.integrante:hover{
+
+    box-shadow: 0 0 20px #37A600;
+    border: solid 1px #FFFFFF;
+    color: #37A600;
+    height: 210px;
+    width: 510px;
+
+}
+
+footer{
+
+    background-color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.txtopp{
+
+    padding-left: 10px;
+    padding-top: 30px;
+
+}
+
+.txtopp .credito{
+
+    padding-left: 290px;
+
+}
